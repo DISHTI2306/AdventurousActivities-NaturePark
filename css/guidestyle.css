@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Header section*/
+.floaters {
+  font-size: 150%;
+  color: #990033;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Papyrus', fantasy;
+}
+
+/*First Second and third paragraph*/
+.geek {
+  font-size: 140%;
+  color: #343a40;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: 'Georgia', serif;
+}
+
+/*Image*/
+figure {
+  padding-left: 38%;
+}
+
+/*last paragraph*/
+.lamebrains {
+  font-size: 200%;
+  color: red;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: 'Brush Script MT', cursive;
+}

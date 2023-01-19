@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the bellamy */
+#bellamy {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #FFCC00;
+  color: #990033;
+  padding: 10px;
+  text-align: left;
+  font-size: 130%;
+  font-family: 'Georgia', serif;
+}
+
+/*Style the "b" */
+.tipsy {
+  color: red;
+  padding: 15px;
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Papyrus', fantasy;
+}
+
+/*Style for the small text*/
+.chris {
+  text-align: left;
+  color: #990033;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: 'Brush Script MT', cursive;
+}
+
+/*Style for paragraph*/
+.luna {
+  text-align: left;
+  color: #990033;
+  font-weight: bold;
+  font-size: 100%;
+  font-family: 'Georgia', serif;
+}
+
+/*Style for labels*/
+label {
+  width: 50%;
+  font-weight: bold;
+  padding: 3px;
+}
+
+/*Style the input container*/
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/*Style the input field*/
+.input-field {
+  width: 80%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  outline: 2px solid red;
+}
+
+/*Set a style for the submit button*/
+.suzie {
+  background-color: red;
+  color: white;
+  padding: 15px 20px;
+  border-color: #990033;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.8;
+  margin-top: 3px;
+  height: 50px;
+}
+
+.suzie:hover {
+  opacity: 1;
+}

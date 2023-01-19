@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Style for section*/
+#safari {
+  text-align: center;
+}
+
+/*Header section*/
+.floaters {
+  font-size: 150%;
+  color: #990033;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Papyrus', fantasy;
+}
+
+/*Style for paragraphs*/
+.marina {
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  font-size: 120%;
+  font-family: 'Georgia', serif;
+}
+
+/*Style for safety precaution*/
+.sofia {
+  font-size: 180%;
+  color: red;
+  text-align: left;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+/*Style for list of safety precaution*/
+.bacia {
+font-size: 140%;
+color: #28a745;
+text-align: left;
+font-weight: lighter;
+padding-top: 3px;
+padding-bottom: 3px;
+font-family: 'Trebuchet MS', sans-serif;
+}

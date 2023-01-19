@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Header section*/
+.floaters {
+  font-size: 150%;
+  color: #990033;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-family: 'Papyrus', fantasy;
+}
+
+/*Style for section*/
+#feeding {
+  text-align: center;
+}
+
+/*Table section*/
+table, th, td {
+  border: 3px red;
+}
+
+table {
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+  border-spacing: 10px;
+  height: auto;
+  border-style: solid;
+  vertical-align: middle;
+  background: white;
+  width: 50%;
+}
+
+th, td {
+  color: black;
+}
+
+table td, table th {
+  border-bottom: thin solid black;
+  border-right: thin solid black;
+  border-left: thin solid red;
+  border-top: thin solid red;
+  padding: 2px;
+  text-align: center;
+}
+
+/*first paragraph*/
+.biters {
+  font-size: 120%;
+  color: #343a40;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  font-family: 'Georgia', serif;
+}
+
+/*list of animal feeding & list of safety precautions*/
+.lurkers {
+  font-size: 180%;
+  color: #6c757d;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+/*video*/
+video {
+  height: auto;
+}
+
+/*paragraph 3 & Safety precautions*/
+.nadia {
+  font-size: 180%;
+  color: #FF0000;
+  text-align: left;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  font-family: 'Copperplate', fantasy;
+}

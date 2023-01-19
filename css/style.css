@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+}
+
+/*body of whole homepage*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  overflow-x: hidden;
+  background: linear-gradient(rgba(255, 207, 121, 0.8), rgba(255, 207, 121, 0.5));
+}
+
+/* Navigation section */
+
+.menu-bar {
+  text-align: center;
+  background-color: #FFCF79;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style-type: none;
+  color: black;
+}
+
+.menu-bar ul li {
+  padding: 5px 5px;
+  display: inline-block;
+  width: 275px;
+  height: 30px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 20px;
+  color: #990033;
+}
+
+.active .menu-bar ul li:hover {
+  background-color: #FF9900;
+  color: red;
+  border-radius: 3px;
+}
+
+.menu-bar li a:hover {
+  background-color: #FF9900;
+  color: #FF0000;
+  transition: 0.9s;
+}
+
+.menu-bar ul li a:link {
+  color: #990033;
+}
+
+.menu-bar ul li a:visited {
+  color: #900603;
+}
+
+.menu-bar ul li a:focus{
+  color: #FF0000;
+}
+
+.menu-bar fa {
+  margin-right: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Style for sub-menu*/
+.sub-menu {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background-color: transparent;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul li {
+  width: 220px;
+  padding: 10px;
+  border-bottom: 0.3px dotted #900603;
+  background-color: transparent;
+  border-radius: 0;
+  text-align: center;
+  display: block;
+}
+
+.menu-bar ul li:hover .sub-menu ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu ul li a:hover {
+  color: red;
+}
+
+/*Style for the logo*/
+.logo img {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 50px;
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/*background picture*/
+.reaper {
+  background-image: url("../images/Cover.jpeg");
+  background-size: cover;
+  height: 650px;
+  background-repeat: no-repeat;
+}
+
+/*images*/
+img {
+  width: 350px;
+  height: auto;
+}
+
+/*Figcaption style*/
+figcaption {
+  align-content: center;
+  text-align: center;
+  font-size: 150%;
+  color: #990033;
+  display: block;
+  font-family: 'Papyrus', fantasy;
+}
+
+/*Style for figure*/
+figure {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: auto;
+}
+
+/*Headings*/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/*Heading 1*/
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 300%;
+  padding-top: 10px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+/*Heading 2*/
+h2 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 230%;
+  padding-bottom: 50px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+/*Headings 3,4,5,6*/
+h3, h4, h5, h6 {
+  text-align: center;
+  color: #990033;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 100%;
+  font-family: 'Papyrus', fantasy;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*paragraph 3*/
+.clarke {
+  font-size: 120%;
+  font-weight: bolder;
+  padding-top: 120px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+/*paragraph 1,2*/
+.container {
+  width: 500px;
+  font-size: 110%;
+  float: left;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/*Activities & Attractions And Special Offers*/
+.madi {
+  font-size: 120%;
+  color: #343a40;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Georgia', serif;
+}
+
+.jasper {
+  font-size: 180%;
+  color: red;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  font-family: ' Papyrus', fantasy;
+}
+
+.rip {
+  align-content: center;
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Papyrus', fantasy;
+}
+
+/*About Us Header*/
+.hey {
+  text-align: center;
+  color: #6c757d;
+  font-weight: bold;
+  font-size: 160%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*About Us*/
+.olivia {
+  font-size: 140%;
+  color: #343a40;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  font-family: 'Papyrus', fantasy;
+}
+
+/*Style for contact us and google map*/
+.huh {
+  float: left;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.yo {
+  float: right;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.vima {
+  text-align: center;
+  padding-top: 400px;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.liz {
+  font-size: 200%;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Papyrus', fantasy;
+}
+
+/*Background for about us*/
+.darshinee {
+  background: linear-gradient(rgba(255, 207, 121, 0),
+      rgba(255, 255, 255, 0.8));
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+/*background for contact us*/
+.hell {
+  background: linear-gradient(rgba(255, 255, 255,
+        0.8), rgba(255, 69, 0, 0.5));
+  background-size: cover;
+  height: 550px;
+  background-repeat: no-repeat;
+}
+
+/*width*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #990033;
+}
